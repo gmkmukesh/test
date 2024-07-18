@@ -1,0 +1,10 @@
+Step1: GCP-> Navigation -> Compute Engine-> VM Instances-> Enable
+Step2: Create instance -> Docker
+Step3: Change Boot-> Ubuntu ->50GB->Change
+Step4: sudosudo Tick Http
+Step5: Click - SSH
+
+->sudo apt update                    (admin privilege)
+->sudo apt install docker.io 
+->service docker status
+sudo docker run -p 9090:8080 -d pengbai/docker-supermario
